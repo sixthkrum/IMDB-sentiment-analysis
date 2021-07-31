@@ -1,3 +1,21 @@
 Uses TF-IDF, word embeddings and deep learning to do sentiment analysis on the IMDB reviews dataset.
 Has a 87% accuracy. The inbuilt preprocessed IMDB reviews dataset from keras has a similar accuracy using the deep learning model in this project.
 
+How to run:
+--Start a python3 virtual environment and activate it.
+
+--Install all requirements in requirements.txt.
+
+--Put the train and test csv files in the root directory that is project is cloned into in folder 'train' and 'test'. The relative path should be like '../train'.
+
+--Set userDefinedParameters.json according to what you want to run.
+  "vocabSize": Sets vocab size
+  "batch_size": Sets batch size for training
+  "sequence_length": Sets sequence length for lstm
+  "train": 1 if you want to train the model, 0 if not
+  "model_name": name of model
+  "num_of_epochs": number of epochs
+  "processData": 1 if you want to process the data, 0 if not 
+  "userTest": 1 if you want to test the output on a single review, 0 if not (supercedes everythin else)
+
+--Run main.py
