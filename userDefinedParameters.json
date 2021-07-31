@@ -1,0 +1,10 @@
+{
+  "vocabSize": 5000,
+  "batch_size": 1000,
+  "sequence_length": 200,
+  "train": 1,
+  "model_name": "best_model.h5",
+  "num_of_epochs": 15,
+  "processData": 0,
+  "userTest": 0
+}

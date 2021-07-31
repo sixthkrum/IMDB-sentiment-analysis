@@ -1,0 +1,3 @@
+Uses TF-IDF, word embeddings and deep learning to do sentiment analysis on the IMDB reviews dataset.
+Has a 87% accuracy. The inbuilt preprocessed IMDB reviews dataset from keras has a similar accuracy using the deep learning model in this project.
+
